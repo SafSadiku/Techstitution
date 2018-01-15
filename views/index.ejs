@@ -1,24 +1,24 @@
 <% include partials/header %> 
-<% include partials/nav %> 
+<% include partials/nav %>
+
 
 <div class="row centered-form">
-            <div class="col-sm-5 col-sm-offset-4 col-md-offset-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title"> <%= title %></h3>
+    <div class="col-sm-4 col-sm-offset-4 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"> <%= title %></h3>
                     </div>
                     <div class="panel-body">
-                        
                         <form class="form-horizontal" method="POST" action="/add" id="border-wait-form" >
                                 <div class="form-group ">
                                     <label class="control-label col-xs-3" for="pika_kufitare">Pika kufitare:</label>
                                     <div class="col-xs-6">
                                         <select class="form-control" id="pika_kufitare" name="pika_kufitare">
                                             <option>Zgjedh piken kufitare</option>
-                                            <option value="vermice">Vermice</option>
-                                            <option value="vermice">Vermice</option>
-                                            <option value="qafe-e-prushit">Merdare</option>
-                                            <option value="qafe-e-morines">Dheu i bardhe</option>
+                                            <option value="Vermice">Vermice</option>
+                                            <option value="Merdare">Merdare</option>
+                                            <option value="Dheu-i-bardhe">Dheu i bardhe</option>
+                                            <option value="Jarinje">Jarinje</option>
                                         </select>
                                     </div>
                                 </div>
@@ -86,14 +86,11 @@
                             </div>
                             <hr>
                             <div class="form-group">
-                                <div class="col-xs-offset-4 col-xs-4">
-                                    <button type="submit" class="btn btn-primary" name="dergo">Dergo</button>
-                                    <button class="btn btn-warning" name="fshij">Fshij</button>
-                                </div>
-                            </div>
-                        </form>
+                            <center><button type="submit" class="btn btn-info" name="dergo">D&eumlrgo</button></center>
                     </div>
-
-
-
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 <% include partials/footer %> 
